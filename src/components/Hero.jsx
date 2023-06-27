@@ -1,4 +1,4 @@
-import { logo } from "../assets";
+import { logo, github } from "../assets";
 
 const Hero = () => {
   return (
@@ -11,9 +11,10 @@ const Hero = () => {
           onClick={() =>
             window.open("https://github.com/HoangLeCoder", "_blank")
           }
-          className='black_btn'
+          className='black_btn flex items-center gap-2'
         >
-          GitHub
+          <img src={github} alt="github" className="w-8 h-8 m-1" />
+          <span className="font-bold">Github</span>
         </button>
       </nav>
 
