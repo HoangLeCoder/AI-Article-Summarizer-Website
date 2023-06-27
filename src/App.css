@@ -43,6 +43,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.hover_btn:hover {
+  background-color: #6bf3df;
+  border: none;
+}
+
+.icon_hover:hover {
+  filter: invert(1);
+}
 
 .gradient {
   height: fit-content;

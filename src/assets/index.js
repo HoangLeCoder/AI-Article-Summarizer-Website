@@ -4,6 +4,7 @@ import copy from './copy.svg'
 import logo from './logo.svg'
 import tick from './tick.svg'
 import github from './github.svg'
+import submit from './submit.svg'
 
 export {
     linkIcon,
@@ -11,5 +12,6 @@ export {
     copy,
     logo,
     tick,
+    submit,
     github
 }
