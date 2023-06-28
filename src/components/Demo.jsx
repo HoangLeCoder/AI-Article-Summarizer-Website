@@ -1,11 +1,14 @@
 import { useState, useEffect } from "react";
 import { copy, linkIcon, loader, tick, submit } from "../assets";
+import { useLazyGetSummaryQuery } from "../services/article";
 
 export const Demo = () => {
     const [article, setArticle] = useState({
         url: "",
         summary: "",
     });
+
+    const [getSummary, {error, isFetching}] = useLazyGetSummaryQuery();
 
     const handleSubmit = async (e) => {
         alert("Submitted");
